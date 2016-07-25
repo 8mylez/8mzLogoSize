@@ -1,0 +1,24 @@
+@media screen and (min-width: @tabletViewportWidth) {
+  .header-main {
+    .logo-main {
+      .logo--link {
+        .unitize-height(@logoHeight);
+      }
+      .logo--shop {
+        .unitize-height(@logoHeight);
+      }
+    }
+  }
+  .is--minimal-header  {
+    .header-main {
+      .logo-main  {
+        .logo--link {
+          .unitize-height(@logoHeightCheckout);
+        }
+        .logo--shop {
+          .unitize-height(@logoHeightCheckout);
+        }
+      }
+    }
+  }
+}
